@@ -1,10 +1,11 @@
-import { HeaderContainer, Logo, Nav } from "./style";
+import { HeaderContainer , Nav } from "./style";
 
 function Header() {
   return (
     <HeaderContainer>
-      <h2>Olá</h2>
-      <Logo>My Logo</Logo>
+      {/* <Logo>
+        <img src="https://via.placeholder.com/300x200" alt="" />
+      </Logo> */}
       <Nav>
         <ul>
           <li>Home</li>

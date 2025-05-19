@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   display: flex;
+  width: 100vw;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 69vh;
-  background: url('/imgs/bkLOGOteste11.png') no-repeat center center;
-  background-size: cover;
+  background: url('/imgs/definitivoxxsw.png') no-repeat center center;
+  background-size: 100vw 100vh;
   color: white;
   text-align: center;
-  padding: 8vh;
+  padding: 0;
 
   h1 {
     font-size: 3rem;
