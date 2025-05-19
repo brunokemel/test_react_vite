@@ -5,10 +5,12 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
-  background-color: #282c34;
+  height: 69vh;
+  background: url('/imgs/bkLOGOteste11.png') no-repeat center center;
+  background-size: cover;
   color: white;
   text-align: center;
+  padding: 8vh;
 
   h1 {
     font-size: 3rem;

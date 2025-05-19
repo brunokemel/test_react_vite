@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-export const ProjectsContainer = styled.div`
-  display: flex;
+ export const ProjectsContainer = styled.div`
+  display: block;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #f9f9f9;
+  min-height: 100vh;
 `;
 export const ProjectItem = styled.div`
   width: 100%;
-  max-width: 800px;
+  max-width: 100vh;
   margin: 10px 0;
   padding: 20px;
   background-color: #fff;
