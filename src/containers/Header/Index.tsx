@@ -8,8 +8,8 @@ function Header() {
       </Logo> */}
       <Nav>
         <ul>
-          <li>Home</li>
           <li>About</li>
+          <li>Project</li>
           <li>Contact</li>
         </ul>
       </Nav>

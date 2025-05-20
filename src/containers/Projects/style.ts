@@ -65,58 +65,19 @@ export const  IframeContainer = styled.iframe`
   margin-bottom: 1rem;
   `;
 
+export const Button = styled.a`
+  background-color: #2563eb; /* Azul */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  cursor: pointer;
 
-
-
-
-
-
-
-
-
-// import styled from "styled-components";
-
-//  export const ProjectsContainer = styled.section`
-//   flex-direction: column;
-//   align-items: center;
-//   padding: 20px;
-//   background-color: #fff;
-//   min-height: 100vh;
-//   margin-top: 50px;
-// `;
-// export const ProjectItem = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   gap: 10px;
-//   width: 200px;
-//   max-width: 100%;
-//   margin: 10px 0;
-//   padding: 20px;
-//   background-color: #000;
-//   border-radius: 8px;
-
-//   h2 {
-//     margin-top: 0;
-//     font-size: 24px;
-//     color: #333;
-//   }
-
-//   p {
-//     color: #666;
-//     line-height: 1.6;
-//   }
-// `;
-// export const CardContainer = styled.div`
-//   display: flex;
-//   width: 100%;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-color: #cccc;
-// `;
-
-// export const Separator = styled.span`
-//   margin-left: 10px;
-//   margin-right: 10px;
-// `;
+  &:hover {
+    background-color: #1e40af; /* Azul mais escuro */
+  }
+`;
