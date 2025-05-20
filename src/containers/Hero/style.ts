@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('/imgs/definitivoxxsw.png') no-repeat center center;
+  background: url('/imgs/bannerBASE.png') no-repeat center center;
   background-size: 100vw 100vh;
   color: white;
   text-align: center;

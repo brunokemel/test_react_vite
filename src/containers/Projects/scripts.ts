@@ -13,6 +13,7 @@ export const content = [
       id: 3,
       title: "enquadrador",
       text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr...",
+      Image: ""
     },
     {
       id: 4,
@@ -23,5 +24,11 @@ export const content = [
       id: 5,
       title: "foto",
       text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr...",
+    },
+    {
+      id: 6,
+      title: "cars-d",
+      text: "Projeto disponível em https://cars-d.vercel.app/",
+      link: "https://cars-d.vercel.app/"
     },
   ];

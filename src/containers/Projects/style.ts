@@ -59,7 +59,11 @@ export const Paragraph = styled.p`
 `;
 
 
-
+export const  IframeContainer = styled.iframe`
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1rem;
+  `;
 
 
 

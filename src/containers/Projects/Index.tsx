@@ -9,6 +9,7 @@ import {
   TitleSmall,
   TitleMedium,
   Paragraph,
+  IframeContainer
 } from "./style";
 
 function ProjectsContainerComponent() {
@@ -19,10 +20,23 @@ function ProjectsContainerComponent() {
         <LayoutRow>
     {content.map((item) => (
       <ProjectItem key={item.id}>
-        <Icon src="images/1008958.png" alt={`Ícone ${item.id}`} />
+        <IframeContainer>
+          <Icon src={`images/${item.id}.png`} alt={`Ícone ${item.id}`} />
+          {item.link ? (
+            <iframe src={item.link}></iframe>
+          ) : null}
+        </IframeContainer>
         <TitleSmall>({item.id})</TitleSmall>
         <TitleMedium>{item.title}</TitleMedium>
-        <Paragraph>{item.text}</Paragraph>
+        <Paragraph>
+          {item.text}
+          {item.link && (
+            <>
+              <br />
+              <a href={item.link} target="_blank" rel="noopener noreferrer">Acesse o projeto</a>
+            </>
+          )}
+        </Paragraph>
       </ProjectItem>
     ))}
   </LayoutRow>
@@ -32,7 +46,6 @@ function ProjectsContainerComponent() {
 }
 
 export default ProjectsContainerComponent;
-
 
 
 
