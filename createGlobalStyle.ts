@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     background-color: ${colors.background};
+    color: ${colors.text};
   }
 
   *, *::before, *::after {

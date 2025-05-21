@@ -68,12 +68,12 @@ export const  IframeContainer = styled.iframe`
 
 export const Button = styled.a`
   background-color: ${colors.Button}; /* Azul */
-  color: white;
+  color: ${colors.background};  /* Branco */
   padding: 6px 12px;
   border-radius: 16px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px ${colors.boxShadow};
   transition: background-color 0.3s ease;
   display: inline-block;
   cursor: pointer;

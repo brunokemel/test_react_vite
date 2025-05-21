@@ -6,8 +6,6 @@ export const HeaderContainer = styled.header`
   justify-content: end;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
-  color: colors.text;;
   font-size: 1.2rem;
   height: 5vh;
 
@@ -21,7 +19,6 @@ ul {
   gap: 2rem;
   margin: 0;
   padding: 0;
-  color: ${colors.text};
   margin-top: 20px;
 
 }
@@ -29,7 +26,6 @@ li {
   cursor: pointer;
   &:hover {
     text-decoration: underline;
-    color: ${colors.text};
   }
 }
 `
