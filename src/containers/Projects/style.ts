@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import { colors } from "../variaveis/variaveis";
 
 export const ProjectsContainer = styled.section`
   width: 100%;
   padding: 40px 0;
-  background-color: white;
+  background-color: ${colors.background};
 `;
 
 export const CardContainer = styled.div`
@@ -20,7 +21,7 @@ export const LayoutRow = styled.div`
 `;
 
 export const ProjectItem = styled.div`
-  background-color: #f2f2f2;
+  background-color: ${colors.itemBacground};
   flex: 1 1 30%;
   min-width: 280px;
   max-width: 400px;
@@ -66,7 +67,7 @@ export const  IframeContainer = styled.iframe`
   `;
 
 export const Button = styled.a`
-  background-color: #2563eb; /* Azul */
+  background-color: ${colors.Button}; /* Azul */
   color: white;
   padding: 6px 12px;
   border-radius: 16px;
@@ -78,6 +79,6 @@ export const Button = styled.a`
   cursor: pointer;
 
   &:hover {
-    background-color: #1e40af; /* Azul mais escuro */
+    background-color: ${colors.ButtonHover}; /* Azul mais escuro */
   }
 `;

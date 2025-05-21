@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../variaveis/variaveis";
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -6,18 +7,13 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 1rem 2rem;
   background-color: #fff;
-  color: #000000;
+  color: colors.text;;
   font-size: 1.2rem;
   height: 5vh;
 
-
-  h2 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #000000;}
-
 `;
+
+
 export const Nav = styled.nav`
 ul {
   list-style: none;
@@ -25,7 +21,7 @@ ul {
   gap: 2rem;
   margin: 0;
   padding: 0;
-  color: #000000;
+  color: ${colors.text};
   margin-top: 20px;
 
 }
@@ -33,7 +29,7 @@ li {
   cursor: pointer;
   &:hover {
     text-decoration: underline;
-    color: #000000;
+    color: ${colors.text};
   }
 }
 `
