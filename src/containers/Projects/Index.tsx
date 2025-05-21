@@ -13,7 +13,7 @@ import {
   Button
 } from "./style";
 
-function ProjectsContainerComponent() {
+const ProjectsContainerComponent = () => {
 
   return (
     <ProjectsContainer>

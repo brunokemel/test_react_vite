@@ -1,6 +1,6 @@
 import { HeaderContainer , Nav } from "./style";
 
-function Header() {
+const Header = () => {
   return (
     <HeaderContainer>
       {/* <Logo>

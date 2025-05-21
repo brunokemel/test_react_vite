@@ -1,6 +1,6 @@
 import { HeroContainer } from "./style";
 
-function Hero() {
+const Hero = () => {
   return (
     <HeroContainer>
       <div className="hero__content">
