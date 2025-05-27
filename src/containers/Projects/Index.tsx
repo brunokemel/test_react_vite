@@ -5,11 +5,8 @@ import {
   CardContainer,
   LayoutRow,
   ProjectItem,
-  Icon,
-  TitleSmall,
   TitleMedium,
   Paragraph,
-  IframeContainer,
   Button
 } from "./style";
 
@@ -21,21 +18,16 @@ const ProjectsContainerComponent = () => {
         <LayoutRow>
     {content.map((item) => (
       <ProjectItem key={item.id}>
-        <IframeContainer>
-          <Icon src={`images/${item.id}.png`} alt={`Ícone ${item.id}`} />
-          {item.link ? (
-            <iframe src={item.link}></iframe>
-          ) : null}
-        </IframeContainer>
-        <TitleSmall>({item.id})</TitleSmall>
+        {item.img && (
+      <img src={item.img} alt={item.title} style={{ width: "100%" }} />
+      )}
         <TitleMedium>{item.title}</TitleMedium>
         <Paragraph>
           <Button>
             {item.text}
           {item.link && (
             <>
-              <br />
-              <a href={item.link} target="_blank" rel="noopener noreferrer">Acesse o projeto</a>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">carsD</a>
             </>
           )}
           </Button>

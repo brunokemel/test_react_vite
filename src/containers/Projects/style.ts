@@ -43,11 +43,6 @@ export const Icon = styled.img`
   margin-bottom: 10px;
 `;
 
-export const TitleSmall = styled.h6`
-  font-size: 14px;
-  margin: 0;
-`;
-
 export const TitleMedium = styled.h5`
   font-size: 18px;
   margin: 5px 0;
@@ -55,16 +50,10 @@ export const TitleMedium = styled.h5`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 `;
 
-
-export const  IframeContainer = styled.iframe`
-  width: 100%;
-  height: 200px;
-  margin-bottom: 1rem;
-  `;
 
 export const Button = styled.a`
   background-color: ${colors.Button}; /* Azul */
