@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     background-color: ${colors.background};
     color: ${colors.text};
+    font-family: 'Montserrat', sans-serif;
   }
 
   *, *::before, *::after {
@@ -16,3 +17,4 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
