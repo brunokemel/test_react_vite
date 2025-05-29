@@ -3,7 +3,7 @@ import { colors } from "../variaveis/variaveis";
 
 export const HeroContainer = styled.div`
   display: flex;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
