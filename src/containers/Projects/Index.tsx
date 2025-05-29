@@ -1,4 +1,5 @@
 import {content} from "./scripts";
+import { Button } from "../../../createGlobalStyle";
 
 import {
   ProjectsContainer,
@@ -7,7 +8,6 @@ import {
   ProjectItem,
   TitleMedium,
   Paragraph,
-  Button
 } from "./style";
 
 const ProjectsContainerComponent = () => {
@@ -23,13 +23,8 @@ const ProjectsContainerComponent = () => {
       )}
         <TitleMedium>{item.title}</TitleMedium>
         <Paragraph>
-          <Button>
+          <Button href={item.link} >
             {item.text}
-          {item.link && (
-            <>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">carsD</a>
-            </>
-          )}
           </Button>
         </Paragraph>
       </ProjectItem>

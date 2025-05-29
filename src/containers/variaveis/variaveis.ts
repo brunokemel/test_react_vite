@@ -5,6 +5,7 @@ export type Colors = {
   Button: string;
   ButtonHover: string;
   boxShadow: string;
+  colorTextHeader: string;
 }
 
 export const colors: Colors = {
@@ -13,5 +14,7 @@ export const colors: Colors = {
   itemBacground: "#f2f2f2",
   Button: "#2563eb", // Azul
   ButtonHover: "#1d4ed8", // Azul mais escuro
-  boxShadow: "rgba(0, 0, 0, 0.1)"
+  boxShadow: "rgba(0, 0, 0, 0.1)",
+  colorTextHeader: "white"
 };
+

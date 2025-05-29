@@ -14,15 +14,14 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 60vh;
   justify-content: start;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   transition: transform 0.3s ease;
-  background-color: pink;
   margin-left: 10vh;
+
   &:hover {
     transform: scale(1.05);
   }
@@ -38,6 +37,14 @@ export const Image = styled.img`
   transition: transform 0.6s ease;
   background-color: ${colors.itemBacground};
   border-radius: 15px;
+ background-image: linear-gradient(
+  to top right,
+  rgba(255, 215, 0, 0.9) 20%,
+  rgba(238, 180, 34, 0.7) 60%,
+  rgba(204, 153, 0, 0.5) 100%
+);
+  box-shadow: 0px 0px 75px 10px rgba(255, 215, 0, 0.6);
+
    &:hover {
     transform: scale(1.05);
   }

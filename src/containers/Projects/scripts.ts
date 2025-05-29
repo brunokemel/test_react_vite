@@ -10,7 +10,7 @@ export const content = [
       title: "movimento",
       text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr...",
       img: "/imgs/carsD.png",
-      link: "https://cars-d.vercel.app/"
+      link: "https://site-gamestore-omega.vercel.app/"
     },
     {
       id: 3,

@@ -5,6 +5,7 @@ export const ProjectsContainer = styled.section`
   width: 100%;
   padding: 40px 0;
   background-color: ${colors.background};
+
 `;
 
 export const CardContainer = styled.div`
@@ -55,19 +56,3 @@ export const Paragraph = styled.p`
 `;
 
 
-export const Button = styled.a`
-  background-color: ${colors.Button}; /* Azul */
-  color: ${colors.background};  /* Branco */
-  padding: 6px 12px;
-  border-radius: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  box-shadow: 0 4px 6px ${colors.boxShadow};
-  transition: background-color 0.3s ease;
-  display: inline-block;
-  cursor: pointer;
-
-  &:hover {
-    background-color: ${colors.ButtonHover}; /* Azul mais escuro */
-  }
-`;

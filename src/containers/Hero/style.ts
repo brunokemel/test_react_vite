@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../variaveis/variaveis";
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -9,7 +10,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   background: url('/imgs/bannerBASE.png') no-repeat center center;
   background-size: 100vw 100vh;
-  color: white;
+  color: ${colors.colorTextHeader};
   text-align: center;
   padding: 0;
 
