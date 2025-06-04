@@ -1,13 +1,8 @@
-export type BreakPoints = {
-  mobile: string;
-  tablet: string;
-  desktop: string;
-  largeDesktop: string;
-};
-
-export const breakPoints: BreakPoints = {
+export const breakPoints = {
   mobile: "320px",
   tablet: "768px",
   desktop: "1024px",
   largeDesktop: "1440px",
-}
+} as const;
+
+export type BreakPoints = typeof breakPoints;
